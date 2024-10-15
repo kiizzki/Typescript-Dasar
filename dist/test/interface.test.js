@@ -17,5 +17,20 @@ describe('Interface', () => {
         };
         expect(add(11, 2)).toBe(13);
     });
+    it("Should support Indexable Interface for number index", () => {
+        const names = ["Mochammad", "Rizki", "John"];
+        console.log(names);
+        console.log(names[0]);
+        console.log(names[1]);
+        console.log(names[2]);
+    });
+    it("Should support Indexable Interface for non number index", () => {
+        const person = {
+            "name": "Rizki",
+            "address": "Indonesia"
+        };
+        expect(person["name"]).toBe("Rizki");
+        expect(person["address"]).toBe("Indonesia");
+    });
 });
 export {};

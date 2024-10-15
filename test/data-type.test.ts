@@ -1,5 +1,5 @@
 describe("Data Type", () => {
-    it("shuld describe", () => {
+    it("should describe", () => {
         const nama: string = "Mochammad Rizki"
         const balance: number = 100000000
         const isVip: boolean = true
